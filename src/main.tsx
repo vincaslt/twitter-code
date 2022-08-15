@@ -3,6 +3,6 @@ import ReactDOM from 'react-dom/client';
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
-    <></>
+    <>Run storybook to see individual examples</>
   </React.StrictMode>,
 );
