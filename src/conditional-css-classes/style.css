@@ -1,0 +1,12 @@
+.bordered {
+  border: 1px dashed black;
+}
+
+.accent {
+  background-color: lightblue;
+}
+
+.selected {
+  background-color: blue;
+  color: white;
+}
