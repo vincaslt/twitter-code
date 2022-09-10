@@ -14,6 +14,7 @@ function Example() {
   const [people, setPeople] = useState<Person[]>([]);
 
   const handleAddClick = () => {
+    // 👇 Will wait until the DOM is updated with the new state
     flushSync(() => {
       setPeople((people) => [
         ...people,

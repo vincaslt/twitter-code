@@ -1,10 +1,12 @@
 import { ComponentMeta } from '@storybook/react';
 
-import Example from './Example';
+import BasicExample from './BasicExample';
+import NewElementExample from './NewElementExample';
 
 export default {
   title: 'Scroll to element',
-  component: Example,
-} as ComponentMeta<typeof Example>;
+  component: BasicExample,
+} as ComponentMeta<typeof BasicExample>;
 
-export const ScrollToElementExample = () => <Example />;
+export const ScrollToElementBasicExample = () => <BasicExample />;
+export const ScrollToNewElementExample = () => <NewElementExample />;

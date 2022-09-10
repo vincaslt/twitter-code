@@ -1,3 +1,26 @@
+body {
+  padding: 0 !important;
+}
+
+#hero-section {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background: lightyellow;
+}
+
+#section-1 {
+  height: 1600px;
+  background: lightblue;
+}
+
+.btn-scroll {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
 .list {
   width: 300px;
   height: 100px;
