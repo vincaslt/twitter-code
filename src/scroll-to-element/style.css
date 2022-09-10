@@ -1,0 +1,6 @@
+.list {
+  width: 300px;
+  height: 100px;
+  overflow: auto;
+  border: 1px dashed grey;
+}

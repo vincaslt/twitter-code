@@ -4,7 +4,7 @@ import FileUploadAppAfter from './after/FileUploadApp';
 import FileUploadAppBefore from './before/FileUploadApp';
 
 export default {
-  title: 'Container/Presentational Components',
+  title: 'Presentational Components',
   component: FileUploadAppBefore,
 } as ComponentMeta<typeof FileUploadAppBefore>;
 
