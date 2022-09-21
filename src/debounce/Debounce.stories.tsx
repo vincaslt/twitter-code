@@ -1,7 +1,7 @@
 import { ComponentMeta } from '@storybook/react';
 
 import BasicDebounceExample from './basic/BasicDebounceExample';
-import DebounceWithFlushExample from './with-flush/DebounceWithFlushExample';
+import DebounceWithFlushExample from './with-flush/DebounceWithFlushExampleHook';
 
 export default {
   title: 'Debounce',

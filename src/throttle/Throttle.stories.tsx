@@ -1,5 +1,5 @@
 import { ComponentMeta } from '@storybook/react';
-import ThrottleExample from './ThrottleExample';
+import ThrottleExample from './ThrottleExampleHook';
 
 export default {
   title: 'Throttle',
