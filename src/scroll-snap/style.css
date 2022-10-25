@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0 !important;
+}
+
+.scrollable-container {
+  background-color: rgb(240, 243, 248);
+  padding: 3rem 0;
+  display: flex;
+  gap: 2rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  font-family: monospace;
+  font-size: 1.2rem;
+  font-weight: 600;
+  width: 25rem;
+  height: 10rem;
+  user-select: none;
+}
+
+.section--start {
+  background: rgb(255, 172, 172);
+  scroll-snap-align: start;
+}
+
+.section--center {
+  background: rgb(172, 185, 255);
+  scroll-snap-align: center;
+}
+
+.section--end {
+  background: rgb(175, 255, 172);
+  scroll-snap-align: end;
+}
