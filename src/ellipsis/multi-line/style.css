@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0 !important;
+}
+
+.ellipsis-multiline {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  white-space: pre-wrap;
+}
+
+.container-multiline {
+  overflow: hidden;
+  resize: horizontal;
+  background-color: ghostwhite;
+  padding: 25px;
+  width: fit-content;
+  height: fit-content;
+}

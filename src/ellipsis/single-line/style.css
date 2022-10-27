@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0 !important;
+}
+
+.ellipsis {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.container {
+  overflow: hidden;
+  resize: horizontal;
+  background-color: ghostwhite;
+  padding: 25px;
+  width: fit-content;
+}
